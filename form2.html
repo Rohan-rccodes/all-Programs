@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job-Form</title>
+</head>
+<body>
+
+    <h2>Fill the form to Register</h2>
+    <form action="">
+
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="name" required>
+        <br/>
+        <br/>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        <br/>
+        <br>
+        <label for="phone">Phone :</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br/>
+        <br/>
+        <Label for="occupation">Occupation : </Label>
+        <select name="occupation" id="occupation">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="engineer">Engineer</option>
+            <option value="coder">Coder</option>
+        <br/>
+        <br/>
+        </select>
+        <br/>
+        <br/>
+
+        <label for="interest">Topic of Interest : </label>
+        <br/>
+        
+        <input type="checkbox" name="interest" id="interest" value="web development">Web Development
+        <br/>
+
+        <input type="checkbox" name="interest" id="interest" value="app development">App Development
+
+        <br/>
+        <input type="checkbox" name="interest" id="interest" value="app development">Game Development
+        <br/>
+        <input type="checkbox" name="interest" id="interest" value="app development">Software Development
+        <br/>
+        <input type="checkbox" name="interest" id="interest" value="app development">Graphic Designing        
+        <br/>
+        <br/>
+        <label for="resume">Resume :</label>
+        <input type="file" id="resume" name="resume" required>
+
+        <br/>
+        <br/>
+
+        <label for="experience">Experience(in years) :  </label>
+        <input type="number" id="experience" name="experience" min="0" max="25" required>
+
+        <!-- <label for="password">Password :</label>
+        <input type="password" id="password" name="password" required> -->
+
+        <br/>
+        <br/>
+
+        <label for="comment">Comment : </label>
+        <textarea name="comment" id="comment"></textarea>
+
+        <br/>
+        <br/>
+        <input type="submit" value="Submit">
+
+
+
+    </form>
+    
+</body>
+</html>
