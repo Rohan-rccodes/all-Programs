@@ -6,17 +6,16 @@
     <title>Flexbox Properties</title>
     <style>
         .container {
-            /* display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 100vh; */
+            display: flex;
             background-color: #c8c5c5;
             border: 1px solid #000;
+            /* flex-direction: row-reverse; */
+            flex-wrap: wrap;
         }
         .box
         {
-            height: 200px;
-            width: 200px;
+            /* height: 200px; */
+            /* width: 200px; */
             border: 2px solid #000;
             margin: 2px;
             padding: 2px;
@@ -26,22 +25,25 @@
         }
         #box2 {
             background-color: #e74c3c;
+            /* flex-grow: 2; */
         }
         #box3 {
             background-color: #3498db;
+            /* flex-grow: 3; */
         }
         #box4 {
             background-color: #2ecc71;
+            /* flex-grow: 1; */
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <div class="box" id="box1"></div>
-        <div class="box" id="box2"></div>
-        <div class="box" id="box3"></div>
-        <div class="box" id="box4"></div>
+        <div class="box" id="box1">BOX1</div>
+        <div class="box" id="box2">BOX2</div>
+        <div class="box" id="box3">BOX3</div>
+        <div class="box" id="box4">BOX4</div>
     </div>
     
 </body>
