@@ -13,11 +13,12 @@
             border: 2px solid #333;
             margin: 2px;
             padding: 2px;
+            display: flex;
         }
         .box{
             width: 200px;
             height: 200px;
-            border: 2px solid #ff0cdb;
+            border: 2px solid #000000;
             margin: 2px;
             padding: 2px;
         }
@@ -33,6 +34,20 @@
         #box4{
             background-color: yellow;
         }
+
+        @media (min-width:640px)
+        {
+            .container{
+                flex-direction: row;
+            }
+        }
+        @media (max-width:640px)
+        {
+            .container{
+                flex-direction: column;
+            }
+        }
+        
     </style>
 </head>
 <body>
