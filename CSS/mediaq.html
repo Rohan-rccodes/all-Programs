@@ -11,8 +11,22 @@
         {
             width: 400px;
             height: 400px;
-            background-color: red;
+            /* background-color: red; */
             border: 1px solid black;
+        }
+        @media (min-width: 500px)
+        {
+            .box
+            {
+                background-color: blue;
+            }
+        }
+        @media (max-width: 768px)
+        {
+            .box
+            {
+                background-color: green;
+            }
         }
     </style>
 </head>
