@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 0.3s ease;
 }
 
 body{
@@ -74,7 +75,7 @@ a{
 .card_image_container{
     position: relative;
     overflow: hidden;
-    height: 7rem;
+    height: 10rem;
 }
 
 @media (min-width: 768px) {
