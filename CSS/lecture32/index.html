@@ -20,13 +20,15 @@
 
         .container
         {
-            background-color: #fcf5f5;
-            padding: 4rem;
+            background-color: #ffecec;
+            padding: 3rem;
             /* display: flex; */
             /* flex-wrap: wrap; */
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 1rem;
+            place-items: center;
+            
 
         }
 
@@ -38,10 +40,28 @@
             width: 150px;
             height: 150px;
             border: 1px solid #000;
+            text-align: center;
+            line-height: 150px;
         }
         #rotate:hover
         {
             transform: rotate(45deg);
+        }
+        #rotatex:hover
+        {
+            transform: rotateX(45deg);
+        }
+        #rotatey:hover
+        {
+            transform: rotateY(45deg);
+        }
+        #rotatez:hover
+        {
+            transform: rotateZ(45deg);
+        }
+        #transltex:hover
+        {
+            transform: translateX(100px);
         }
     </style>
 </head>
