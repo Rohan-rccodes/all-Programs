@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Tranforms</title>
-
-
     <style>
         *
         {
@@ -17,7 +15,6 @@
             width: 100%;
             height: 100%;
         }
-
         .container
         {
             background-color: #ffecec;
@@ -28,10 +25,7 @@
             grid-template-columns: repeat(3, 1fr);
             gap: 1rem;
             place-items: center;
-            
-
         }
-
         .item
         {
             background-color: #7937fd;
@@ -59,10 +53,39 @@
         {
             transform: rotateZ(45deg);
         }
-        #transltex:hover
+        #translatex:hover
         {
             transform: translateX(100px);
         }
+        #translatey:hover
+        {
+            transform: translateY(100px);
+        }
+        #translatez:hover
+        {
+            transform: perspective(300px) translateZ(100px);
+        }
+        #scalex:hover
+        {
+            transform: scaleX(1.5);
+        }
+        #scaley:hover
+        {
+            transform: scaleY(1.5);
+        }
+        #scalez:hover
+        {
+            transform:perspective(200px) scaleZ(2) rotateY(30deg);
+        }
+        #skewx:hover
+        {
+            transform: skewX(30deg);
+        }
+        #skewy:hover
+        {
+            transform: skewY(30deg);
+        }
+
     </style>
 </head>
 <body>
@@ -72,9 +95,9 @@
         <div class="item" id="rotatex">RotateX</div>
         <div class="item" id="rotatey">RotateY</div>
         <div class="item" id="rotatez">RotateZ</div>
-        <div class="item" id="transltex">TranslteX</div>
-        <div class="item" id="transltey">TranslteY</div>
-        <div class="item" id="transltez">TranslteZ</div>
+        <div class="item" id="translatex">TranslateX</div>
+        <div class="item" id="translatey">TranslateY</div>
+        <div class="item" id="translatez">TranslateZ</div>
         <div class="item" id="scalex">ScaleX</div>
         <div class="item" id="scaley">ScaleY</div>
         <div class="item" id="scalez">ScaleZ</div>
