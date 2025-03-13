@@ -161,29 +161,6 @@ body{
         border-radius: 0.5rem;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    .nav-link
-    {
-        padding: 0.5rem 0;
-    }
-    .nav-link:hover
-    {
-        color: var(--text-color);
-    }
-    .nav-link:last-child
-    {
-        margin-top: 1rem;
-    }
-    .menu-btn.active .menu-icon:before
-    {
-        content: '\f00d';
-    }
-    .menu-btn.active .menu-icon
-    {
-        color: var(--primary-color);
-    }
-    .menu-btn.active .nav
-    {
-        display: flex;
-    }
+
 }
 
