@@ -17,6 +17,8 @@
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     box-sizing: border-box;
+    transition: all 0.1s ease;
+    transform: all 0.1s ease;
     
 }
 
@@ -99,7 +101,7 @@ body{
     border-radius: 0.375rem;
     background-color: var(--primary-color);
     color: var(--background-color);
-    padding:0.75rem 1.5rem;
+    padding:0.5rem 1rem;
     cursor: pointer;
     transform: all 0.1s ease;
     font-size: 1rem;
@@ -128,7 +130,9 @@ body{
     border: none;
     font-size: 1rem;
     font-weight: 600;
+    background-repeat: 0.375rem ;
     transform: all 0.3s ease;
+    background-color: var(--background-color);
 }
 .menu-icon
 {
