@@ -472,5 +472,23 @@ body{
 /*---- RaiAarohi13162 ----*/
 /*---- 55686971823 ----*/
 
-/*--------Main hero ---------------*/
+/*-------Testimonial Section-------*/
+
+.testimonial-container{
+    background-color: var(--background-color);
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.testimonial-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.testimonial-title{
+    font-size: 1.875rem;
+    font-weight: bold;
+}
 
