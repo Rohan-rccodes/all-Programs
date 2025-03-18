@@ -2,16 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Study Sync</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!------------hero section-------------->
-    <section class="hero" id="hero">
-      <div class="header">
-        <a href="index.html" class="logo">
-          <img src="images/logo.png" alt="" />
+    <div class="header">
+      <header class="header-content">
+        <a href="#logo" class="logo">
+          <img src="./images/StudySyn.svg" alt="logoImage" class="logo-icon" />
           <span class="logo-text">StudySync</span>
         </a>
 
@@ -19,83 +19,76 @@
           <a href="#home" class="nav-link">Home</a>
           <a href="#features" class="nav-link">Features</a>
           <a href="#pricing" class="nav-link">Pricing</a>
-          <a href="#blog" class="nav-link">Blogs</a>
+          <a href="#blog" class="nav-link">Blog</a>
           <a href="#about" class="nav-link">About</a>
         </nav>
 
-        <a href="#contact" class="contact-btn btn"> Contact Us </a>
+        <a href="#contact" class="contact-button"> Contact Us </a>
 
-        <button type="button" class="menu-btn">
+        <button type="button" class="menu-button">
           <img
             src="./images/Hamburger.svg"
-            alt="menu-button"
+            alt="menuButton"
             class="menu-icon"
           />
         </button>
-      </div>
-    </section>
+      </header>
+    </div>
 
-    <!------------MAIN SECTION----------->
-
-    <section class="main">
-      <div class="main-section">
+    <div class="content">
+      <section class="main-section">
         <div class="content-left">
-          <p class="hero-label">Very proud to introduce</p>
-          <h1 class="hero-title">Seamless approach for Brighter Future</h1>
-          <p class="hero-desc">
-            StudySync is a platform that helps students to study and learn in a
-            more efficient way. It provides a seamless approach to study and
-            learn in a more efficient way.
+          <p class="section-label">Very proud to introduce</p>
+          <h1 class="section-title">Seamless Learning for Brighter Futures</h1>
+          <p class="section-description">
+            Our innovative platform offers an effortless and seamless approach
+            to learning, empowering students of all ages to achieve brighter
+            futures. Join us on a transformative journey to simplify education
+            and unlock your full potential.
           </p>
           <div class="button-group">
-            <a href="#features" class="hero-btn btn start-btn">Start Now</a>
-            <a href="#tour" class="hero-btn btn tour-btn">Take Tour</a>
+            <a href="#start" class="start-button">Start Now</a>
+            <a href="#tour" class="tour-button">Take Tour</a>
           </div>
         </div>
 
         <div class="content-right">
-          <div class="img-container">
-            <img src="images/hero.jpg" alt="hero-image" class="hero-img" />
+          <div class="image-container">
+            <img
+              src="./images/hero.jpg"
+              alt="sectionImage"
+              class="section-image"
+            />
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
-    <section class="company-container">
-      <h2 class="company-title">Trusted by the 100+ Companies</h2>
-
+    <div class="company-container">
+      <h2 class="company-title">Trusted by the best</h2>
       <div class="company-grid">
         <div class="company-logo">
-          <img src="./images/Google.svg" alt="google-logo" class="logo-img" />
+          <img src="./images/Google.svg" class="svg-img" />
           <span class="logo-txt">Google</span>
         </div>
 
         <div class="company-logo">
-          <img
-            src="./images/VectorEdu.svg"
-            alt="amazon-logo"
-            class="logo-img"
-          />
-          <span class="logo-txt">VectorEdu</span>
-        </div>
-
-        <div class="company-logo">
-          <img src="./images/linkedin.svg" alt="apple-logo" class="logo-img" />
-          <span class="logo-txt">LinkledIn</span>
-        </div>
-
-        <div class="company-logo">
-          <img
-            src="./images/Microsoft.svg"
-            alt="microsoft-logo"
-            class="logo-img"
-          />
+          <img src="./images/Microsoft.svg" class="svg-img" />
           <span class="logo-txt">Microsoft</span>
         </div>
-      </div>
-    </section>
 
-    <!--------feature section--------->
+        <div class="company-logo">
+          <img src="./images/linkedin.svg" class="svg-img" />
+          <span class="logo-txt">Linkedin</span>
+        </div>
+
+        <div class="company-logo">
+          <img src="./images/VectorEdu.svg" class="svg-img" />
+          <span class="logo-txt">VectorEdu</span>
+        </div>
+      </div>
+    </div>
+
     <div class="feature-container">
       <div class="feature-content">
         <div class="main-info">
@@ -121,7 +114,6 @@
               </div>
             </div>
           </div>
-
           <!-- card 2 -->
           <div class="feature-card">
             <div class="icon-container">
@@ -192,7 +184,6 @@
       </div>
     </div>
 
-    <!---------------Testimonial------------->
     <div class="testimonial-container">
       <div class="testimonial-content">
         <h2 class="testimonial-title">What Others Say About Us</h2>
@@ -212,7 +203,6 @@
               <p class="testimonial-desc">8th Grade English Teacher</p>
             </div>
           </div>
-
           <!-- card 2 -->
           <div class="testimonial-card">
             <div class="testimonial-text">
@@ -228,7 +218,6 @@
               <p class="testimonial-desc">8th Grade English Teacher</p>
             </div>
           </div>
-
           <!-- card 3 -->
           <div class="testimonial-card">
             <div class="testimonial-text">
@@ -248,16 +237,12 @@
       </div>
     </div>
 
-    <!-----------NewsLetter----------->
-
     <div class="newsletter-container">
       <div class="newsletter-content">
-        
         <!-- left part  -->
         <div class="news-left">
           <img src="./images/img.png" loading="lazy" alt="news-img" />
         </div>
-
         <!-- right part -->
         <div class="news-right">
           <div class="news-info">
@@ -270,6 +255,7 @@
             <input class="news-email" placeholder="Email" />
             <button class="news-send-button">Send</button>
           </form>
+
           <div class="privacy-policy">
             By signing up to our newsletter you agree to our
             <a class="news-link"> Terms of Service </a>
@@ -279,8 +265,6 @@
         </div>
       </div>
     </div>
-
-    <!-----------Footer------------>
 
     <div class="footer-container">
       <footer class="footer">
@@ -366,7 +350,6 @@
               </li>
             </ul>
           </div>
-
           <!-- column 4 -->
           <div class="footer-grid-column">
             <div class="footer-grid-heading">Legal</div>
