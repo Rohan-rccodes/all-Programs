@@ -10,5 +10,11 @@ console.log("try block ends here");
 }
 catch(e){
     console.log("catch block executed");
+
+    console.log("what the error : ", e);
    
+}
+finally{
+    console.log("finally block executed");
+    console.log("finally block ends here");
 }
