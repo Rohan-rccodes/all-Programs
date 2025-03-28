@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        // function scope
+        
+        function greet(){
+            var name = 'earth';
+            console.log("hello duniya", name);
+        }
+        greet();
+         
+
+        // block scope
+        // var global scope
+        // but let and const block scope
+
+        {
+            let space = 'mars';
+            var  world3 = 'jupitor';
+            console.log("hello duniya", space);
+        }
+        console.log(world3);
+
+
+    
+    </script>
+</body>
+</html>
