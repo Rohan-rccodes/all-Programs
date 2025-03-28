@@ -6,9 +6,15 @@
 
 class human {
   age = 20;
-  #wt = 50; //private variable
+  #wt = 502; //private variable
   ht = 5.5;
 
+  //copnstructor are used to initialize the properties of the class
+
+  constructor(newage, newht) {
+    this.age = newage;
+    this.ht = newht;
+  }
   //behaviour
   walking() {
     console.log("walking", this.#wt);
@@ -17,15 +23,27 @@ class human {
   running() {
     console.log("running");
   }
-}
 
+  get fetchweight() {
+    return this.#wt;
+  }
+
+  set modifyweight(weight) {
+    this.#wt = weight;
+  }
+}
 //object
 
-
-let obj1 = new human();
-console.log(obj1.age);
-console.log(obj1.wt);
-console.log(obj1.ht);
+// console.log(obj1.ht);
 
 //accessing function
-obj1.walking();
+// obj1.walking();
+
+//passing value to constructor
+let obj2 = new human(25, 12.5);
+
+//accesing new ht age
+console.log(obj2.age);
+console.log(obj2.ht);
+
+console.log(obj2.fetchweight);
