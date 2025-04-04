@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOMContentLoaded Example</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("DOM is ready!");
+            document.getElementById("message").textContent = "Hello, DOM is fully loaded!";
+        });
+    </script>
+</head>
+<body>
+    <h1 id="message">Loading...</h1>
+</body>
+</html>
